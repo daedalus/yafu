@@ -31,7 +31,7 @@ def find_lines(l):
     if (l[i].strip() == pg2.strip() and l[i + 1].strip() == pgc.strip() and 
         l[i + 2].strip() == pgt.strip() and l[i + 3].strip() == pgf.strip()):
       i2 = i
-    i = i + 1
+    i += 1
   return (i0, i1, i2)
   
 def add_it(fn):
